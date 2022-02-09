@@ -1,0 +1,126 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+.login-header{
+    position: absolute;
+    top: 20px;
+    width: 50%;
+    color: #1A3F13;
+}
+.landing-page{
+    background-color: #1A3F13;
+}
+
+.login-header .links{
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: aliceblue; */
+  
+}
+
+.login-header .links li{
+    list-style-type: none;
+   
+}
+
+.login-header .links li a{
+    text-decoration: none;
+    color: #1A3F13;
+    font-weight: 800px;
+    transition: underline,color 0.3sec smooth ease-in-out;
+}
+.login-header .links li a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.signin{
+    height: 100vh;
+    display: flex;
+    width: 100%;
+   
+}
+.signin .signin-left{
+    width: 100%;
+    background:#F2882C;
+    
+}
+.signin .signin-left img{
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.signin-content .login-header{
+    color: #1A3F13;
+    font-weight: 500;
+  
+}
+hr{
+    border: 0.01px solid #F2882C;
+    margin: 10px 20px 20px;
+}
+.signin .signin-right{
+    width: 100%;
+}
+
+.signin-right h2{
+    padding-top: 90px;
+    font-size: 30px;
+    color: #1A3F13;
+    text-align: center;
+}
+.signin-right h3{
+    font-size: 26px;
+    padding-top: 30px;
+    padding-left: 120px;
+
+
+}
+.signin .signin-right form{
+    position: relative;
+    left: 120px;
+    top: 20px;
+    width: 100px;
+    display: flexbox;
+    
+    
+}
+.signin .signin-right .pwd,.name,.cpwd,.phone,.email{
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.signin-content .login-header .links li a:hover{
+    text-decoration: underline;
+    color: #F2882C;
+}
+.btn button{
+    border: none;
+    position: relative;
+    top: 50px;
+    left: 25%;
+    width: 169px;
+    height: 37px;
+    text-align: center;
+    background: #1A3F13;
+    border-radius: 20px;
+    color: white;
+    transition:box-shadow, 12sec ease-in;
+    box-shadow: 3px 4px 4px #1A3F13;
+    font-size: 18px;
+
+    
+}
+.btn button:hover{
+    background-color: #F2882C;
+    cursor: pointer;
+    box-shadow: 3px 4px 4px black;
+    
+}

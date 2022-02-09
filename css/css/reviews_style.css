@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+.login-header{
+    position: absolute;
+    top: 20px;
+    width: 50%;
+    color: #1A3F13;
+}
+.landing-page{
+    background-color: #1A3F13;
+}
+
+.login-header .links{
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: aliceblue; */
+  
+}
+
+.login-header .links li{
+    list-style-type: none;
+   
+}
+
+.login-header .links li a{
+    text-decoration: none;
+    color: #1A3F13;
+    font-weight: 800px;
+    transition: underline,color 0.3sec smooth ease-in-out;
+}
+.login-header .links li a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.reviews-page > .login-header{
+    width: 95%;
+    background-color: bisque;
+}
+.reviews-page > .login-header >.links > li a:hover{
+    text-decoration: underline;
+    color: #F2882C;
+}
+.reviews-page > .login-header .links{
+    color: #1A3F13;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    margin-left:50%;
+}
+.reviews{
+    background-color: #ffffff;
+    height:220vh;
+}
+.reviews h2{
+    text-align: center;
+    padding-top: 70px;
+    letter-spacing: 4px;
+    font-weight: 400;
+}
+.reviews div{
+    border-radius: 0px 50px 50px 0px;
+    margin-top: 100px;
+    box-shadow: 4px 4px 4px 4px rgba(242, 136, 44, 0.5);
+    margin-left:-30px;
+
+}
+.reviews div:nth-child(2n+1){
+    background-color: #F2882C;
+    margin-left: 50%;
+    margin-top: 100px; 
+    border-radius: 50px 0px 0px 50px;
+  
+}
+.reviews img{
+    width: 100px; 
+    height: 100px; 
+    border-radius: 100%;
+    position: relative;
+    top:35px;
+    bottom: 45px;
+    left: 50px;
+ 
+    
+}
+.person-1, .person-2, .person-3, .person-4 {
+    background-color: #F2882C;
+    width: 50%;
+    height:180px;
+    display: flex;
+    
+    /* padding-left: 20px; */
+    /* margin-bottom: 50px; */
+}
+
+.reviews > div > p{
+    color: #000000;
+    width: 400px;
+    height: 100px;
+    position: relative;
+    left: 75px;
+    top:30px;
+    text-align: left;
+    font-size: 20px;
+}
+.reviews hr{
+    border: #1A3F13 solid 1px;
+    margin-top: 50px;
+}
+.login-header hr{
+    border: #F2882C solid 1px;
+    margin: 10px 10px -70px 10px;
+}
+.reviews span{
+    margin-left: 40px;
+    margin-top: -120px;
+    background-color: antiquewhite;
+}
+

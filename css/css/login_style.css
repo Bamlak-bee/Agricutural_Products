@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+.login-header{
+    position: absolute;
+    top: 20px;
+    width: 50%;
+    color: #1A3F13;
+}
+.landing-page{
+    background-color: #1A3F13;
+}
+
+.login-header .links{
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: aliceblue; */
+  
+}
+
+.login-header .links li{
+    list-style-type: none;
+   
+}
+
+.login-header .links li a{
+    text-decoration: none;
+    color: #1A3F13;
+    font-weight: 800px;
+    transition: underline,color 0.3sec smooth ease-in-out;
+}
+.login-header .links li a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.content{
+    background: #1A3F13;
+    height: 500px;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+.images-section{
+    width: 100%;
+    background-color: tomato;
+    height: 200px;
+
+}
+.images-section img{
+    border-radius: 50%;
+    width: 20%;
+    height: 100%;
+    background-color: turquoise;
+}
+.images-section img .image-1{
+        margin-left: 50%;
+        width: 400px;
+        height: 400px;
+        
+}
+
+
+
+/* -----------------LOGIN PAGE------------------ */
+.login{
+    height: 100vh;
+    display: flex;
+    width: 100%;
+}
+.login .login-right{
+    width: 100%;
+    background:#F2882C;
+    
+}
+.login .login-right img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.login .login-left{
+    position: relative;
+    margin-top: 100px;
+    left: 100px;
+    width: 100%;
+}
+.login-left .login-content{
+    /* background-color: aquamarine; */
+    width: max-content;
+}
+.login-left h2{
+    font-size: 30px;
+    color: #1A3F13;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.login-left h3{
+    font-size: 26px;
+    padding-left:100px;
+    padding-bottom: 30px;
+
+}
+.login .login-left form{
+    margin-left: 100px;
+    /* background-color: blueviolet; */
+    width: 100px;
+    display: flexbox;
+    
+}
+.login .login-left .name{
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+
+}
+
+.login .login-left .pwd,.name{
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+}
+.forgot-pwd{
+    font-weight: 600px;
+    font-size: 14px;
+    display: flex;
+    width: 500px;
+}
+.forgot-pwd :first-child{
+    position: relative;
+    color: red;
+    left: 100px;
+    top: 20px;
+
+}
+.forgot-pwd :nth-child(2) a{
+    text-decoration: none;
+    color: #1A3F13;
+    position: relative;
+    left: 150px;
+    top: 20px;
+    font-weight: 600;
+
+}
+.forgot-pwd p:hover{
+    color: #F2882C;
+    cursor: pointer;
+}
+.btn button{
+    border: none;
+    position: relative;
+    top: 100px;
+    left: 25%;
+    width: 169px;
+    height: 37px;
+    text-align: center;
+    background: #1A3F13;
+    border-radius: 20px;
+    color: white;
+    transition:box-shadow, 12sec ease-in;
+    box-shadow: 3px 4px 4px #1A3F13;
+    font-size: 18px;
+
+    
+}
+.btn button:hover{
+    background-color: #F2882C;
+    cursor: pointer;
+    box-shadow: 3px 4px 4px black;
+    
+
+}
+
+/* /--------------SIGNIN PAGE----------------/ */
+
+
+
+/* /---------------REVIEWS PAGE----------/ */
+
+
+
+
