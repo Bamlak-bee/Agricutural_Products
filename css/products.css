@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    box-sizing: border-box;
+}
+.login-header{
+    position: absolute;
+    top: 20px;
+    left: 45%;
+    width: 50%;
+    color: #1A3F13;
+}
+
+.login-header .links{
+    display: flex;
+    justify-content: space-evenly;
+   
+    /* background-color: aliceblue; */
+  
+}
+
+.login-header .links li{
+    list-style-type: none;
+   
+}
+
+.login-header .links li a{
+    text-decoration: none;
+    color: #1A3F13;
+    font-size: 18px;
+    font-weight: 800px;
+    transition: underline,color 0.3sec smooth ease-in-out;
+}
+.login-header .links li a:hover{
+    text-decoration: underline;
+    color: #F2882C;
+}
+hr{
+    margin: 80px;
+    border: solid #F2882C 1px;
+}
+h2{
+    text-align: center;
+    margin-top: -40px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    font-size: 1.6em;
+    background-color: #F2882C;
+}
+.top-section{
+    display: flex;
+    justify-content:space-between;
+    /* background-color: aqua; */
+}
+input{
+    font-size: 1.2em;
+    color: black;
+
+}
+.top-section .search-bar input{
+    box-shadow: 0 5px 20px rgba(0,  0, 0, 0.5);
+    padding: 6px 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+
+}
+.top-section .search-bar ion-icon{ 
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 4px;
+}
+
+.catgegories{
+    position: relative;
+    /* margin-top:10px; */
+    height: 40px;
+    width: 300px;
+    
+
+}
+.catgegories::before{
+    content: '';
+    position: absolute;
+    top:10px;
+    right: 0px;
+    width: 8px;
+    height: 8px;
+    border: 2px solid #333;
+    z-index: 10000;
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+    transform: rotate(-45deg);
+    transition: 0.5s;
+    pointer-events: none;
+}
+/* onlclick create a class 'active' to transform the arrow */
+.catgegories.active::before{
+    transform: rotate(-225deg);
+    top: 18px;
+}
+.catgegories input{
+    position: absolute;
+    top:0;
+    left: 30px;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    /* use this for the cards */
+    box-shadow: 0 5px 20px rgba(0,  0, 0, 0.5);
+    padding: 12px 20px;
+    border-radius: 10px;
+}
+.catgegories .option{
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    width: 100%;
+    background: rgba(255, 255, 255,0.9);
+    box-shadow: 0 10px 20px rgba(0,  0, 0, 0.5); 
+    border-radius: 10px;
+    overflow: hidden;
+    display: none;
+
+}
+.catgegories.active .option{
+    display:block ;
+}
+
+.catgegories .option div{
+    padding: 12px 20px;
+    cursor: pointer;
+}
+.catgegories .option div:hover{
+    background: #62baea;
+    color: white;
+}
+main{
+    background: url(/images/bg2.png);
+    background-size: cover;
+    margin-top: 80px;
+}
+main h3{
+    /* background-color: #333; */
+    font-size: 1.6em;
+    color: #1A3F13;
+    position: relative;
+    top:80px;
+    text-align: center;
+
+    
+}
+main .fru{
+    position: static;
+}
+
+main div{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    /* top:30px; */
+    /* background-color: aqua; */
+    margin-top: 100px;
+    margin-bottom: 20px;
+   
+
+}
+main .all-fruits .all-veg .all-dairy .all-grains img{
+    transition: 300ms ease-in-out transform;
+    
+} 
+
+main span{
+    position: relative;
+    /* background-color: #62baea; */
+    height: 30px;
+    top:230px;
+    left: -170px;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: black;
+}
+main div img:hover{
+    cursor: pointer;
+    transform: scale(1.3);
+  
+
+}
+main div::after{
+    content: '';
+    position: relative;
+    top:100px;
+    right: 50px;
+    width: 50px;
+    height: 50px;
+    border: 3px solid black;
+    border-top: none;
+    border-right: none;
+    transform: rotate(225deg);
+    transition: 0.5s;
+
+}
+
+
+
+
+
+
+

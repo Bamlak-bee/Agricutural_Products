@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="/css/products.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="login-header">
+            <ul class="links">
+
+                <li> <a href="">About</a></li>
+                <li> <a href="reviews.html">Reviews</a></li>
+                <li> <a href="">Products</a></li>
+                <li> <a href="login.html">Login/Sign Up</a></li>
+                <li> <a href="">Cart</a></li>
+            </ul>
+        </header>
+        <hr>
+        <h2>Our Products</h2>
+        <div class="top-section">
+
+            <div class="catgegories">
+                <input id="category" type="text" readonly placeholder="Categories" class="textBox">
+                <div class="option">
+                    <div onclick="show('Fruits')" class="friuts">Fruits</div>
+
+                    <div class="dairy" onclick="show('Dairy')">Dairy</div>
+
+                    <div onclick="show('Vegetables')" class="vegetables">Vegetables</div>
+
+                    <div onclick="show('Grains')" class="grains">Grains</div>
+                </div>
+            </div>
+
+            <div class="search-bar">
+
+                <ion-icon name="search-outline"></ion-icon>
+                <!-- icon -->
+                <input type="text" placeholder="Search">
+            </div>
+        </div>
+
+        <main>
+            <h3 class="fru">Fruits</h3>
+            <div class="all-fruits">
+                <img src="/images/grapes.png" alt="">
+                <span>Apple</span>
+                <img src="/images/banana.png" alt="">
+                <span>Grapes</span>
+                <img src="/images/unsplash_A4BBdJQu2co.png" alt="">
+                <span>Banana</span>
+                <img src="/images/pineapple.png" alt="">
+                <span>Pineapple</span>
+
+            </div>
+
+            <h3 class="veg">Vegetables</h3>
+            <div class="all-veg">
+                <img src="/images/carrot.png" alt="">
+                <span>Carrots</span>
+                <img src="/images/tomato.png" alt="">
+                <span>Tomato</span>
+                <img src="/images/onion.png" alt="">
+                <span>Onion</span>
+                <img src="/images/potato.png" alt="">
+                <span>Potato</span>
+            </div>
+
+            <h3 class="dairy">Dairy</h3>
+            <div class="all-dairy">
+                <img src="/images/butter.png" alt="">
+                <span>Butter</span>
+                <img src="/images/milk.png" alt="">
+                <span>Milk</span>
+                <img src="/images/yoghurt.png" alt="">
+                <span>Yoghurt</span>
+                <img src="/images/ayib.png" alt="">
+                <span>Cheese</span>
+
+            </div>
+
+            <h3 class="grain">Grains</h3>
+            <div class="all-grains">
+                <img src="/images/teff.png" alt="">
+                <span>Teff</span>
+                <img src="/images/corn.png" alt="">
+                <span>Corn</span>
+                <img src="/images/wheat.png" alt="">
+                <span>Wheat</span>
+                <img src="/images/barley.png" alt="">
+                <span>Barley</span>
+            </div>
+
+
+
+
+
+
+        </main>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+<script src="app.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</html>
