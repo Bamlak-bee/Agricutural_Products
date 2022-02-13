@@ -1,4 +1,4 @@
-// let fruits_el = document.querySelector('.fruits');
+let fruits_el = document.querySelector('.fruits');
 // let dairy_el = document.querySelector('.fruits');
 // let vegetables_el = document.querySelector('.fruits');
 // let grains_el = document.querySelector('.fruits');
@@ -13,9 +13,10 @@ category_el.addEventListener('click', () => {
 });
 
 
-function show(anything) {
-    textBox_el.value = anything;
-    console.log(anything);
+function show() {
+    // textBox_el.value = anything;
+    window.location.href = 'http://reviews.html';
+    console.log('ok');
 
 };
 
