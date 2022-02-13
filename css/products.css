@@ -141,9 +141,9 @@ input{
     color: white;
 }
 main{
-    background: url(/images/bg2.png);
-    background-size: cover;
-    margin-top: 80px;
+    margin-top: 50px;
+    height: 1650px;
+    background: #62baea8c;
 }
 main h3{
     /* background-color: #333; */
@@ -151,12 +151,13 @@ main h3{
     color: #1A3F13;
     position: relative;
     top:80px;
-    text-align: center;
-
-    
+    text-align: left;
+    margin-left: 20px;
+    padding-bottom: 20px;
 }
 main .fru{
     position: static;
+    padding-top:20px;
 }
 
 main div{
@@ -185,6 +186,7 @@ main span{
     font-weight: 600;
     color: black;
 }
+
 main div img:hover{
     cursor: pointer;
     transform: scale(1.3);
@@ -205,7 +207,15 @@ main div::after{
     transition: 0.5s;
 
 }
-
+.all-grains{
+    margin-bottom: 20px;
+}
+footer{
+    background-color: #F2882C;
+    width:100%;
+    height:100px;
+    margin-top: -5px;
+}
 
 
 
