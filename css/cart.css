@@ -76,10 +76,14 @@ section{
     left:100px;
     top:130px;
 }
-table, tr, td{
+table, td{
+    padding-top:10px;
     /* border: solid saddlebrown 1px; */
     font-size:20px;
-    width: 400px;
+    width: 500px;
+}
+table td{
+    width: 200px;
 }
 table{
     border-collapse: collapse;
@@ -106,4 +110,7 @@ table button{
 }
 .right-side{
     margin-left: 100px;
+}
+button:hover{
+    cursor: pointer;
 }

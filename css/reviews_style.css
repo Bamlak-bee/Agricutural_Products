@@ -1,12 +1,13 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Roboto;
+    font-family: 'Poppins';
 }
 .login-header{
-    position: absolute;
-    top: 20px;
-    width: 50%;
+    margin-top: 20px;
+    margin-left: 50%;
+    margin-bottom: 50px;
+    width: 45%;
     color: #1A3F13;
 }
 .landing-page{
@@ -28,12 +29,13 @@
 .login-header .links li a{
     text-decoration: none;
     color: #1A3F13;
-    font-weight: 800px;
+    font-weight: 500;
+    font-size: 1.2em;
     transition: underline,color 0.3sec smooth ease-in-out;
 }
 .login-header .links li a:hover{
     text-decoration: underline;
-    color: white;
+    color: #F2882C;
 }
 
 .reviews-page > .login-header{
@@ -55,11 +57,19 @@
     background-color: #ffffff;
     height:220vh;
 }
+hr{
+    margin-top: -20px;
+    border: solid 1px #F2882C;
+    margin-left: 100px;
+    margin-right: 100px;
+}
 .reviews h2{
     text-align: center;
     padding-top: 70px;
     letter-spacing: 4px;
-    font-weight: 400;
+    font-weight: 700;
+    line-height: 1.1px;
+    font-size: 1.6em;
 }
 .reviews div{
     border-radius: 0px 50px 50px 0px;
@@ -106,14 +116,7 @@
     text-align: left;
     font-size: 20px;
 }
-.reviews hr{
-    border: #1A3F13 solid 1px;
-    margin-top: 50px;
-}
-.login-header hr{
-    border: #F2882C solid 1px;
-    margin: 10px 10px -70px 10px;
-}
+
 .reviews span{
     margin-left: 40px;
     margin-top: -120px;
