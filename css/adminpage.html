@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Page</title>
+    <link rel="stylesheet" href="admin_style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <ul>
+                <li>Add Product</li>
+                <li>View Products</li>
+            </ul>
+        </header>
+
+        <main>
+            <h3>Add a new product</h3>
+            <div class="content">
+
+                <form action="" method="post">
+                    <input type="text" placeholder="Enter Product name" required>
+
+                    <input type="number" placeholder="Enter price" required min="0">
+
+                    <input type="number" placeholder="Enter product quantity" min="0">
+
+                    <input type="file" class="files">
+
+                    <button type="submit">add product</button>
+                </form>
+            </div>
+
+        </main>
+
+        <div class="products">
+
+            <h4>Products</h4>
+
+            <table>
+                <thead>
+                    <td class="no">No.</td>
+                    <td>product image</td>
+                    <td>product name</td>
+                    <td>price</td>
+                    <td>-</td>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="no">1</td>
+                        <td>a</td>
+                        <td>1</td>
+                        <td>a</td>
+                        <td>
+                            <button class="update action">Update</button>
+                            <button class="del action">Delete</button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="no">2</td>
+                        <td>a</td>
+                        <td>1</td>
+                        <td>a</td>
+                        <td>
+                            <button class="update action">Update</button>
+                            <button class="del action">Delete</button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="no">3</td>
+                        <td>a</td>
+                        <td>1</td>
+                        <td>a</td>
+                        <td>
+                            <button class="update action">Update</button>
+                            <button class="del action">Delete</button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="no">1</td>
+                        <td>a</td>
+                        <td>1</td>
+                        <td>a</td>
+                        <td>
+                            <button class="update action">Update</button>
+                            <button class="del action">Delete</button>
+                        </td>
+                    </tr>
+
+
+                </tbody>
+            </table>
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+</body>
+
+</html>

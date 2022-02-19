@@ -186,6 +186,11 @@ main span{
     font-weight: 600;
     color: black;
 }
+main .all-fruits span a{
+    text-decoration: none;
+    color: black;
+
+}
 
 main div img:hover{
     cursor: pointer;

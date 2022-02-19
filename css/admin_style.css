@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --orange:#F2882C;
+    --container_bg:#F4F4FB;
+    --white:#fff;
+    --text:#000;
+    --green: #1A3F13;
+    --delete:#000;
+
+    
+}
+.container{
+    height: 100vh;
+}
+header{
+    height: 75px;
+    width: 100%;
+    background-color:var(--orange) ;
+}
+header ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-left: 50%;
+    padding-top: 25px;
+}
+ul li{
+    list-style: none;
+    font-size: 1.2em;
+}
+ul li:hover{
+    cursor: pointer;
+    color: var(--white);
+
+}
+main{
+    height: 550px;
+    width: 500px;
+    background-color: var(--orange);
+    position: relative;
+    left: 470px;
+    top:100px;
+    box-shadow: 4px 4px 4px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+main h3{
+    text-align: center;
+    font-size: 1.6em;
+    text-decoration: underline;
+    padding-top: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+main .content{
+    margin: 50px;
+
+}
+main .content .files{
+     width:250px;
+}
+.content input{
+    width:390px;
+    border: none;
+    height: 50px;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+main .content button{
+    box-shadow: 4px 4px 6px 2px rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+    background-color: var(--green);
+    width: 347px;
+    height: 53px;
+    color: var(--white);
+    font-size: 1.3em;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 20px;
+    border: none;
+
+}
+.products{
+    background-color: var(--container_bg);
+    position: absolute;
+    width: 100%;
+    height: 1228px;
+    left: 0px;
+    top: 800px;
+
+}
+h4{
+    text-align: center;
+    font-size: 1.6em;
+    color: var(--text);
+    padding-top: 20px;
+    text-decoration: underline ;
+}
+table{
+    width: 80%;
+    height: auto;
+    margin-left: 150px;
+    margin-top: 50px;
+    border: var(--green) solid 2px;
+    font-size: 1.2em;
+    text-align: center;
+}
+table thead{
+    background-color: var(--orange);
+    text-align: center;
+    font-size: 1.3em;
+    text-transform: capitalize;
+}
+table tbody td{
+    background-color: var(--white);
+    height: 100px;
+    width: 100px;
+}
+table .no{
+    text-align: center;
+    width: 1px;
+}
+table .action{
+    border: none;
+    background-color:var(--green);
+    color: var(--white);
+    font-size: 1em;
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+
+    
+}
+table .del{
+    background-color: var(--delete);
+}
+table .action:hover{
+    cursor: pointer;
+}
