@@ -18,7 +18,7 @@
 header{
     height: 75px;
     width: 100%;
-    background-color:var(--orange) ;
+    background-color:var(--orange) ; 
 }
 header ul{
     display: flex;
@@ -31,8 +31,13 @@ header ul{
 ul li{
     list-style: none;
     font-size: 1.2em;
+    
 }
-ul li:hover{
+ul li a{
+    color: var(--text);
+    text-decoration: none;
+}
+ul li a:hover{
     cursor: pointer;
     color: var(--white);
 
